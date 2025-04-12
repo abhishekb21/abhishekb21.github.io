@@ -62,7 +62,6 @@ function App() {
                 <button onClick={() => scrollToSection('education')} className="text-white/70 hover:text-white transition-colors hover-link">
                   Education
                 </button>
-                {/* Remove projects button */}
                 <button onClick={() => scrollToSection('publications')} className="text-white/70 hover:text-white transition-colors hover-link">
                   Publications
                 </button>
@@ -71,6 +70,12 @@ function App() {
                 </button>
                 <button onClick={() => scrollToSection('blogs')} className="text-white/70 hover:text-white transition-colors hover-link">
                   Blogs
+                </button>
+                <button onClick={() => scrollToSection('awards')} className="text-white/70 hover:text-white transition-colors hover-link">
+                  Awards
+                </button>
+                <button onClick={() => scrollToSection('talks')} className="text-white/70 hover:text-white transition-colors hover-link">
+                  Talks
                 </button>
                 <button onClick={() => scrollToSection('music')} className="text-white/70 hover:text-white transition-colors hover-link">
                   Music
@@ -202,7 +207,7 @@ function App() {
 
               <div className="card p-8 rounded-2xl">
                 <h3 className="text-xl font-medium mb-3">Deutsche Telekom Labs (T-Labs)</h3>
-                <p className="text-white/50 mb-3">Research Engineer (May 2008 - Aug 2008)</p>
+                <p className="text-white/50 mb-3">Research Internship (May 2008 - Aug 2008)</p>
                 <p className="text-white/70">
                 Collaborative decision-making for anomaly detection in Wireless Sensor Networks.
                 </p>
@@ -210,7 +215,7 @@ function App() {
 
               <div className="card p-8 rounded-2xl">
                 <h3 className="text-xl font-medium mb-3">NEC Laboratories </h3>
-                <p className="text-white/50 mb-3">Research Intern (Jun 2010 - Sep 2010)</p>
+                <p className="text-white/50 mb-3">Research Internship (Jun 2010 - Sep 2010)</p>
                 <p className="text-white/70">
                   Research in networking and distributed systems - Software Defined Networking (OpenFlow) and topology virtualization.
                 </p>
@@ -618,6 +623,38 @@ function App() {
                 >
                   Read More →
                 </a>
+              </div>
+            </div>
+          </section>
+
+          {/* Awards Section */}
+          <section id="awards" className="mb-32 section-fade scroll-mt-20">
+            <div className="flex items-center mb-12">
+              <Award className="w-6 h-6 mr-3" />
+              <h2 className="text-3xl font-light tracking-tight">Awards</h2>
+            </div>
+            <div className="card p-8 rounded-2xl">
+              <ul className="list-disc list-inside space-y-4 text-white/70">
+                <li>W. Noel Eldred Memorial Fellowship, Stanford University</li>
+                <li>Erasmus Mundus Grant, Education, Audiovisual, Culture Executive Agency, European Union</li>
+                <li>Prof. Jnansaran Chatterjee Memorial Gold Medal, Department of Electronics and Telecommunications Engineering, Jadavpur University</li>
+                <li>Best Paper Award, 14th West Bengal Science and Technology Congress, 2007 by Department of Science and Technology, Government of West Bengal, India</li>
+                <li>Senior Scholar, JBNSTS, India</li>
+              </ul>
+            </div>
+          </section>
+
+          {/* Talks Section */}
+          <section id="talks" className="mb-32 section-fade scroll-mt-20">
+            <div className="flex items-center mb-12">
+              <Newspaper className="w-6 h-6 mr-3" />
+              <h2 className="text-3xl font-light tracking-tight">Talks</h2>
+            </div>
+            <div className="space-y-8">
+              <div className="card p-8 rounded-2xl">
+                <h3 className="text-xl font-medium mb-3">Enterprise IoT And Associated Challenges</h3>
+                <p className="text-white/50 mb-3">Amity School of Engineering and Technology, Amity University, India</p>
+                <p className="text-white/70">November 22, 2021</p>
               </div>
             </div>
           </section>
