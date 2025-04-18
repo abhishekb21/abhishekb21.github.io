@@ -266,82 +266,214 @@ function App() {
             </div>
             <div className="space-y-8">
               <div className="card p-8 rounded-2xl">
-                <h3 className="text-xl font-medium mb-3">A centralized algorithm for topology management in mobile ad-hoc networks through multiple coordinators</h3>
-                <p className="text-white/50 mb-3">Distributed Computing and Networking: 9th International Conference, ICDCN 2008, Kolkata, India, January 5-8, 2008. Proceedings 9; Springer Berlin Heidelberg, pp 581-586.</p>
+                <h3 className="text-xl font-medium mb-3">
+                  <a 
+                    href="https://link.springer.com/chapter/10.1007/978-3-540-77444-0_61" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    A centralized algorithm for topology management in mobile ad-hoc networks through multiple coordinators
+                  </a>
+                </h3>
+                <p className="text-white/50 mb-3">Distributed Computing and Networking. ICDCN 2008. Lecture Notes in Computer Science, vol 4904. Springer, Berlin, Heidelberg.</p>
                 <p className="text-white/70">Bhattacharyya, Abhishek; Seetharam, Anand; Naskar, Mrinal K;</p>
               </div>
               <div className="card p-8 rounded-2xl">
-                <h3 className="text-xl font-medium mb-3">Balancing energy dissipation in data gathering wireless sensor networks using ant colony optimization</h3>
-                <p className="text-white/50 mb-3">Distributed Computing and Networking: 10th International Conference, ICDCN 2009, Hyderabad, India, January 3-6, 2009. Proceedings 10; Springer Berlin Heidelberg, pp 437-443</p>
+                <h3 className="text-xl font-medium mb-3">
+                  <a 
+                    href="https://dl.acm.org/doi/10.1007/978-3-540-92295-7_52" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    Balancing energy dissipation in data gathering wireless sensor networks using ant colony optimization
+                  </a>
+                </h3>
+                <p className="text-white/50 mb-3"> In: Garg, V., Wattenhofer, R., Kothapalli, K. (eds) Distributed Computing and Networking. ICDCN 2009. Lecture Notes in Computer Science, vol 5408. Springer, Berlin, Heidelberg.</p>
                 <p className="text-white/70">Acharya, Ayan; Seetharam, Anand; Bhattacharyya, Abhishek; Naskar, Mrinal Kanti;</p>
               </div>
               <div className="card p-8 rounded-2xl">
-                <h3 className="text-xl font-medium mb-3">Implementing a Topology Management Algorithm for Mobile Ad-Hoc Networks</h3>
-                <p className="text-white/50 mb-3">Journal of Applied Computer Science, pp 44-50</p>
+                <h3 className="text-xl font-medium mb-3">
+                  <a 
+                    href="https://doaj.org/article/678c3ad9f4ad417597444905d7bd6752" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    Implementing a Topology Management Algorithm for Mobile Ad-Hoc Networks
+                  </a>
+                </h3>
+                <p className="text-white/50 mb-3">Journal of Applied Computer Science, Vol. 2, no. 4, pp 44-50</p>
                 <p className="text-white/70">Seetharam, A; Bhattacharyya, A; Naskar, MK;</p>
               </div>
               <div className="card p-8 rounded-2xl">
-                <h3 className="text-xl font-medium mb-3">DHS: A Data Handover Scheme for Lifetime Enhancement of Wireless Sensor Networks</h3>
-                <p className="text-white/50 mb-3">Journal of Applied Computer Science, pp 23-41, Volume 16, No. 2, 2008.</p>
-                <p className="text-white/70">Bhattacharyya, Abhishek; Seetharam, Anand; Naskar, MK; </p>
+                <h3 className="text-xl font-medium mb-3">
+                  <a 
+                    href="https://www.academia.edu/6800748/Energy_Efficient_Deployment_and_Scheduling_of_Nodes_in_Wireless_Sensor_Networks" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    Energy Efficient Deployment and Scheduling of Nodes in Wireless Sensor Networks
+                  </a>
+                </h3>
+                <p className="text-white/50 mb-3">10th International Symposium on Wireless Personal Multimedia Communications (WPMC 2007)</p>
+                <p className="text-white/70">S Chakrabarti A Seetharam, A Bhattacharyya, G Balasubramanian, A Hossain;</p>
               </div>
               <div className="card p-8 rounded-2xl">
-                <h3 className="text-xl font-medium mb-3">Estimation of node density for an energy efficient deployment scheme in wireless sensor network</h3>
-                <p className="text-white/50 mb-3">2008 3rd International Conference on Communication Systems Software and Middleware and Workshops (COMSWARE'08), pp 95-98, 2008 IEEE.</p>
+                <h3 className="text-xl font-medium mb-3">
+                  <a 
+                    href="https://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-article-LOD8-0002-0009" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    DHS: A Data Handover Scheme for Lifetime Enhancement of Wireless Sensor Networks
+                  </a>
+                </h3>
+                <p className="text-white/50 mb-3">Journal of Applied Computer Science, pp 23-41, Volume 16, No. 2, 2008.</p>
+                <p className="text-white/70">Bhattacharyya, Abhishek; Seetharam, Anand; Naskar, MK;</p>
+              </div>
+              <div className="card p-8 rounded-2xl">
+                <h3 className="text-xl font-medium mb-3">
+                  <a 
+                    href="https://ieeexplore.ieee.org/document/4554386/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    Estimation of node density for an energy efficient deployment scheme in wireless sensor network
+                  </a>
+                </h3>
+                <p className="text-white/50 mb-3">2008 3rd International Conference on Communication Systems Software and Middleware and Workshops (COMSWARE'08)</p>
                 <p className="text-white/70">Seetharam, Anand; Bhattacharyya, Abhishek; Naskar, Mrinal K; Mukherjee, Amitava;</p>
               </div>
               <div className="card p-8 rounded-2xl">
-                <h3 className="text-xl font-medium mb-3">A position based algorithm for topology management in Mobile Ad-Hoc Networks enduring limited transmission failures</h3>
-                <p className="text-white/50 mb-3">2007 IET-UK International Conference on Information and Communication Technology in Electrical Sciences (ICTES 2007), pp 928-933, IET 2007.</p>
+                <h3 className="text-xl font-medium mb-3">
+                  <a 
+                    href="https://digital-library.theiet.org/doi/10.1049/ic%3A20070743" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    A position based algorithm for topology management in Mobile Ad-Hoc Networks enduring limited transmission failures
+                  </a>
+                </h3>
+                <p className="text-white/50 mb-3">2007 IET-UK International Conference on Information and Communication Technology in Electrical Sciences (ICTES 2007)</p>
                 <p className="text-white/70">Seetharam, Anand; Bhattacharyya, Abhishek; Naskar, MK;</p>
               </div>
               <div className="card p-8 rounded-2xl">
-                <h3 className="text-xl font-medium mb-3">Designing an Energy Efficient Framework for Data Gathering in Wireless 
-                Sensor Network</h3>
-                <p className="text-white/50 mb-3">International Congress for Global Science and Technology (ICGST), Journal of Computer Network and 
-                Internet Research (CNIR), 2010, Volume 3, Issue 4. </p>
-                <p className="text-white/70">Mukherjee, Subhabrata; Seetharam, Anand; Bhattacharyya, Abhishek;  Naskar, Mrinal K; Mukherjee, Amitava;</p>
+                <h3 className="text-xl font-medium mb-3">
+                  <a 
+                    href="https://arxiv.org/abs/1204.2882" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    Designing an Energy Efficient Framework for Data Gathering in Wireless Sensor Network
+                  </a>
+                </h3>
+                <p className="text-white/50 mb-3">International Congress for Global Science and Technology (ICGST), Journal of Computer Network and Internet Research (CNIR)</p>
+                <p className="text-white/70">Mukherjee, Subhabrata; Seetharam, Anand; Bhattacharyya, Abhishek; Naskar, Mrinal K; Mukherjee, Amitava;</p>
               </div>
               <div className="card p-8 rounded-2xl">
-                <h3 className="text-xl font-medium mb-3">A Balanced Energy Dissipation Scheme for Enhanced Performance in Data Gathering Wireless Sensor Networks</h3>
-                <p className="text-white/50 mb-3"> SPIT-IEEE Colloquium and International Conference, Mumbai, India, Vol. 3, pp 227-232</p>
+                <h3 className="text-xl font-medium mb-3">
+                  <a 
+                    href="https://etrx.spit.ac.in/wp-content/blogs.dir/19/files/2012/ieee_colloquium/Communication_and_Networking/spit-296.pdf" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    A Balanced Energy Dissipation Scheme for Enhanced Performance in Data Gathering Wireless Sensor Networks
+                  </a>
+                </h3>
+                <p className="text-white/50 mb-3">SPIT-IEEE Colloquium and International Conference, Mumbai, India</p>
                 <p className="text-white/70">Acharya, Ayan; Seetharam, Anand; Bhattacharyya, Abhishek; Naskar, Mrinal K;</p>
               </div>
               <div className="card p-8 rounded-2xl">
-                <h3 className="text-xl font-medium mb-3">Lifetime enhancement in wireless sensor networks through selective data handover</h3>
-                <p className="text-white/50 mb-3">2007 Third International Conference on Wireless Communication and Sensor Networks, 2007, pp 55-60, IEEE.</p>
+                <h3 className="text-xl font-medium mb-3">
+                  <a 
+                    href="https://ieeexplore.ieee.org/document/4475747" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    Lifetime enhancement in wireless sensor networks through selective data handover
+                  </a>
+                </h3>
+                <p className="text-white/50 mb-3">2007 Third International Conference on Wireless Communication and Sensor Networks</p>
                 <p className="text-white/70">Bhattacharyya, Abhishek; Seetharam, Anand; Dasgupta, Sulagna; Das, Debjyoti; Mitra, Swarup; Naskar, MK;</p>
               </div>
               <div className="card p-8 rounded-2xl">
-                <h3 className="text-xl font-medium mb-3">Machine Learning Framework for Prioritiizing Location Measurement of Multiple Devices</h3>
-                <p className="text-white/50 mb-3">Technical Disclosure Commons, (December 21, 2018)</p>
-                <p className="text-white/70">Zhang, Xu; Tran, Huy; Silverman, Matt; Mukherji, Abhishek; Raghuram, Vinay; Bhattacharyya, Abhishek; and
-                Pandey, Santosh;</p>
+                <h3 className="text-xl font-medium mb-3">
+                  <a 
+                    href="https://www.tdcommons.org/cgi/viewcontent.cgi?article=2878&context=dpubs_series" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    Machine Learning Framework for Prioritiizing Location Measurement of Multiple Devices
+                  </a>
+                </h3>
+                <p className="text-white/50 mb-3">Technical Disclosure Commons</p>
+                <p className="text-white/70">Zhang, Xu; Tran, Huy; Silverman, Matt; Mukherji, Abhishek; Raghuram, Vinay; Bhattacharyya, Abhishek; and Pandey, Santosh;</p>
               </div>
               <div className="card p-8 rounded-2xl">
-                <h3 className="text-xl font-medium mb-3">Energy Efficient Deployment Strategy for Lifetime Enhancement in Sensor Networks.</h3>
-                <p className="text-white/50 mb-3">Journal of Computer Science & Control Systems, Vol 2, Number 2, 2009.</p>
+                <h3 className="text-xl font-medium mb-3">
+                  <a 
+                    href="https://openurl.ebsco.com/EPDB%3Agcd%3A6%3A18846262/detailv2?sid=ebsco%3Aocu%3Arecord&id=ebsco%3Agcd%3A51003372&bquery=IS%201844-6043%20AND%20VI%202%20AND%20IP%202%20AND%20DT%202009&page=1&link_origin=scholar.google.com&searchDescription=Journal%20of%20Computer%20Science" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    Energy Efficient Deployment Strategy for Lifetime Enhancement in Sensor Networks
+                  </a>
+                </h3>
+                <p className="text-white/50 mb-3">Journal of Computer Science & Control Systems</p>
                 <p className="text-white/70">Seetharam, Anand; Bhattacharyya, Abhishek; Chakrabarti, Saswat;</p>
               </div>
               <div className="card p-8 rounded-2xl">
-                <h3 className="text-xl font-medium mb-3">An energy efficient data gathering protocol for wireless sensor networks</h3>
-                <p className="text-white/50 mb-3">Journal of Applied Computer Science, Vol 1, No. 2, 2008.</p>
+                <h3 className="text-xl font-medium mb-3">
+                  <a 
+                    href="https://www.semanticscholar.org/paper/An-Energy-Efficient-Data-Gathering-Protocol-for-Seetharam-Acharya/67b4bf340e9c75d4f337e1a257e8526a8139a3ee" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    An energy efficient data gathering protocol for wireless sensor networks
+                  </a>
+                </h3>
+                <p className="text-white/50 mb-3">Journal of Applied Computer Science</p>
                 <p className="text-white/70">Seetharam, A; Acharya, A; Bhattacharyya, A; Naskar, MK;</p>
               </div>
               <div className="card p-8 rounded-2xl">
-                <h3 className="text-xl font-medium mb-3">Glimpsing into the future: An accurate wifi-based client count prediction algorithm</h3>
-                <p className="text-white/50 mb-3">17th International Workshop on Mobile Computing Systems and Applications, 2016</p>
-                <p className="text-white/70">Tran, Huy; Pandey, Santosh; Bhattacharyya, Abhishek; Natarajan, Preethi; Bulusu, Nirupama; </p>
+                <h3 className="text-xl font-medium mb-3">
+                  <a 
+                    href="https://web.cecs.pdx.edu/~nbulusu/papers/hotmobile16.pdf" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    Glimpsing into the future: An accurate wifi-based client count prediction algorithm
+                  </a>
+                </h3>
+                <p className="text-white/50 mb-3">17th IEEE International Workshop on Mobile Computing Systems and Applications, ACM Hotmobile</p>
+                <p className="text-white/70">Tran, Huy; Pandey, Santosh; Bhattacharyya, Abhishek; Natarajan, Preethi; Bulusu, Nirupama;</p>
               </div>
               <div className="card p-8 rounded-2xl">
-                <h3 className="text-xl font-medium mb-3">Information-based predictive congestion control for intelligent transportation management</h3>
-                <p className="text-white/50 mb-3">Advances in Transportation Studies, Vol 19, 2009.</p>
-                <p className="text-white/70">Bhattacharyya, A; Seetharam, A; Naskar, MK; </p>
-              </div>
-              <div className="card p-8 rounded-2xl">
-                <h3 className="text-xl font-medium mb-3">Energy efficient data gathering schemes in wireless sensor networks using ant colony optimization</h3>
-                <p className="text-white/50 mb-3">Journal of Applied Computer Science & Mathematics, pp 19-28, Vol 3, No. 1, 2009</p>
-                <p className="text-white/70">Anand, Seetharam; Ayan, Akharya; Abhishek, Bhattacharyya; Mrinal, Naskar K;  </p>
+                <h3 className="text-xl font-medium mb-3">
+                  <a 
+                    href="https://www.atsinternationaljournal.com/index.php/2009-issues/xix-november-2009/444-information-based-predictive-congestion-control-for-intelligent-transportation-management" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    Information-based predictive congestion control for intelligent transportation management
+                  </a>
+                </h3>
+                <p className="text-white/50 mb-3">Advances in Transportation Studies</p>
+                <p className="text-white/70">Bhattacharyya, A; Seetharam, A; Naskar, MK;</p>
               </div>
             </div>
           </section>
