@@ -192,7 +192,7 @@ function App() {
                 <p className="text-white/50 mb-3">Senior Technical Leader (2012 - Present)</p>
                 <p className="text-white/70">
                   Leading development of cloud-native enterprise IoT solutions. Building and scaling infrastructure 
-                  for Cisco Spaces IoT Services. Expertise in wireless localization, Computer Networking, Bluetooth, IoT, distributed systems, cloud computing, and microservices architecture.
+                  for Cisco Spaces IoT Services. Expertise in wireless localization, Computer Networking, Bluetooth, IoT, IoT Security, distributed systems, cloud computing, and microservices architecture.
                 </p>
               </div>
 
@@ -783,6 +783,20 @@ function App() {
               <h2 className="text-3xl font-light tracking-tight">Talks</h2>
             </div>
             <div className="space-y-8">
+            <div className="card p-8 rounded-2xl">
+                <h3 className="text-xl font-medium mb-3">
+                  <a 
+                    href="https://events.vtools.ieee.org/m/482449" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    Scaling Enterprise IoT
+                  </a>
+                </h3>
+                <p className="text-white/50 mb-3">IEEE Communications Society, Santa Clara Valley Section Chapter, Santa Clara University</p>
+                <p className="text-white/70">May 1, 2025</p>
+              </div>
               <div className="card p-8 rounded-2xl">
                 <h3 className="text-xl font-medium mb-3">Enterprise IoT And Associated Challenges</h3>
                 <p className="text-white/50 mb-3">Amity School of Engineering and Technology, Amity University, India</p>
