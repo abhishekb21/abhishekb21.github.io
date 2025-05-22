@@ -769,6 +769,7 @@ function App() {
               <ul className="list-disc list-inside space-y-4 text-white/70">
                 <li>W. Noel Eldred Memorial Fellowship, Stanford University</li>
                 <li>Erasmus Mundus Grant, Education, Audiovisual, Culture Executive Agency, European Union</li>
+                <li>Senior Member, IEEE</li>
                 <li>Prof. Jnansaran Chatterjee Memorial Gold Medal, Department of Electronics and Telecommunications Engineering, Jadavpur University</li>
                 <li>Best Paper Award, 14th West Bengal Science and Technology Congress, 2007 by Department of Science and Technology, Government of West Bengal, India</li>
                 <li>Senior Scholar, JBNSTS, India</li>
