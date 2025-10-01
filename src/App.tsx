@@ -146,7 +146,7 @@ function App() {
                   ))}
                 </div>
                 <p className="text-lg text-white/70 leading-relaxed mb-6">
-                Innovator and technical leader, specializing in product building and technological innovation. 
+                Innovator and leader, specializing in product building and technological innovation. 
                 Expertise in cloud computing, networking, IoT, security, and digital transformation. Built several products from grounds up.
                 </p>
                 <div className="flex items-center space-x-6 text-white/50">
@@ -189,9 +189,9 @@ function App() {
             <div className="space-y-8">
               <div className="card p-8 rounded-2xl">
                 <h3 className="text-xl font-medium mb-3">Cisco Systems</h3>
-                <p className="text-white/50 mb-3">Senior Technical Leader (2012 - Present)</p>
+                <p className="text-white/50 mb-3">Principal Engineer (2012 - Present)</p>
                 <p className="text-white/70">
-                  Leading development of cloud-native enterprise IoT solutions. Building and scaling infrastructure 
+                  Leading development of cloud-native enterprise location based services solutions. Building and scaling infrastructure 
                   for Cisco Spaces IoT Services. Expertise in wireless localization, Computer Networking, Bluetooth, IoT, IoT Security, distributed systems, cloud computing, and microservices architecture.
                 </p>
               </div>
