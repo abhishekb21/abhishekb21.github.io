@@ -68,8 +68,8 @@ function App() {
                 <button onClick={() => scrollToSection('patents')} className="text-white/70 hover:text-white transition-colors hover-link">
                   Patents
                 </button>
-                <button onClick={() => scrollToSection('blogs')} className="text-white/70 hover:text-white transition-colors hover-link">
-                  Blogs
+                <button onClick={() => scrollToSection('media')} className="text-white/70 hover:text-white transition-colors hover-link">
+                  Media
                 </button>
                 <button onClick={() => scrollToSection('awards')} className="text-white/70 hover:text-white transition-colors hover-link">
                   Awards
@@ -475,6 +475,20 @@ function App() {
                 <p className="text-white/50 mb-3">Advances in Transportation Studies</p>
                 <p className="text-white/70">Bhattacharyya, A; Seetharam, A; Naskar, MK;</p>
               </div>
+              <div className="card p-8 rounded-2xl">
+                <h3 className="text-xl font-medium mb-3">
+                  <a 
+                    href="https://www.tdcommons.org/cgi/viewcontent.cgi?article=10367&context=dpubs_series" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    Using Indoor Location as Proof of Humanity
+                  </a>
+                </h3>
+                <p className="text-white/50 mb-3">Technical Disclosure Commons</p>
+                <p className="text-white/70">Abhishek Bhattacharyya</p>
+              </div>
             </div>
           </section>
 
@@ -708,13 +722,27 @@ function App() {
             </div>
           </section>
 
-          {/* Blogs Section */}
-          <section id="blogs" className="mb-32 section-fade scroll-mt-20">
+          {/* Media Section */}
+          <section id="media" className="mb-32 section-fade scroll-mt-20">
             <div className="flex items-center mb-12">
               <Newspaper className="w-6 h-6 mr-3" />
-              <h2 className="text-3xl font-light tracking-tight">Blogs</h2>
+              <h2 className="text-3xl font-light tracking-tight">Media</h2>
             </div>
             <div className="space-y-8">
+              <div className="card p-8 rounded-2xl">
+                <h3 className="text-xl font-medium mb-3">The Invisible Fabric: Redefining the Future of Enterprise IoT</h3>
+                <p className="text-white/50 mb-3">Jan 2026</p>
+                <p className="text-white/70 mb-4">Interview published in Analytics Insight</p>
+                <a 
+                  href="https://www.analyticsinsight.net/internet-of-things/the-invisible-fabric-redefining-the-future-of-enterprise-iot" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-300 text-sm"
+                >
+                  Read More →
+                </a>
+              </div>
+
               <div className="card p-8 rounded-2xl">
                 <h3 className="text-xl font-medium mb-3">Supercharging Indoor IoT Management: Cisco DNA Spaces IoT Services Policy Engine</h3>
                 <p className="text-white/50 mb-3">April 2022</p>
