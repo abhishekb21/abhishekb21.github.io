@@ -800,7 +800,8 @@ function App() {
                 <li>Senior Member, IEEE</li>
                 <li>Prof. Jnansaran Chatterjee Memorial Gold Medal, Department of Electronics and Telecommunications Engineering, Jadavpur University</li>
                 <li>Best Paper Award, 14th West Bengal Science and Technology Congress, 2007 by Department of Science and Technology, Government of West Bengal, India</li>
-                <li>Senior Scholar, JBNSTS, India</li>
+                <li>Senior Scholar, Jagadis Bose National Science Talent Search, India</li>
+                <li>12th in Secondary (Madhyamik) examination, West Bengal. 14th in Higher Secondary Examination, West Bengal. 12th in Engineering (WBJEE). 63rd in Medical (WBJEE).</li>
               </ul>
             </div>
           </section>
